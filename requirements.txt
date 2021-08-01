@@ -1,5 +1,6 @@
 absl-py==0.13.0
 alabaster==0.7.12
+anaconda-client==1.7.2
 anaconda-navigator==1.10.0
 anaconda-project==0.8.3
 argh==0.26.2
@@ -14,9 +15,9 @@ attrs @ file:///tmp/build/80754af9/attrs_1604765588209/work
 autopep8 @ file:///tmp/build/80754af9/autopep8_1596578164842/work
 Babel @ file:///tmp/build/80754af9/babel_1605108370292/work
 backcall==0.2.0
-backports.functools-lru-cache==1.6.1
+backports.functools-lru-cache @ file:///tmp/build/80754af9/backports.functools_lru_cache_1618170165463/work
 backports.shutil-get-terminal-size==1.0.0
-backports.tempfile==1.0
+backports.tempfile @ file:///home/linux1/recipes/ci/backports.tempfile_1610991236607/work
 backports.weakref==1.0.post1
 bcrypt @ file:///C:/ci/bcrypt_1597936263757/work
 beautifulsoup4 @ file:///tmp/build/80754af9/beautifulsoup4_1601924105527/work
@@ -36,9 +37,9 @@ cloudpickle @ file:///tmp/build/80754af9/cloudpickle_1598884132938/work
 clyent==1.2.2
 colorama @ file:///tmp/build/80754af9/colorama_1603211150991/work
 comtypes==1.1.7
-conda==4.9.2
+conda==4.10.3
 conda-build==3.20.5
-conda-package-handling @ file:///C:/ci/conda-package-handling_1603003327818/work
+conda-package-handling @ file:///C:/ci/conda-package-handling_1618262320430/work
 conda-verify==3.4.2
 contextlib2==0.6.0.post1
 cryptography @ file:///C:/ci/cryptography_1601046905460/work
@@ -232,7 +233,7 @@ tblib @ file:///tmp/build/80754af9/tblib_1597928476713/work
 tensorboard==2.5.0
 tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.0
-tensorflow-cpu==2.5.0
+tensorflow==2.5.0
 tensorflow-estimator==2.5.0
 termcolor==1.1.0
 terminado==0.9.1
