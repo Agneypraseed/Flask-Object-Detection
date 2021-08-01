@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Detection</title>   
+    <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+</head>
+
+<body>
+    <form action="/" method="POST" enctype="multipart/form-data">
+        <div>
+          <label for="image_uploads">Click to Choose Image</label>
+          <input type="file" id="image_uploads" name="image" accept=".jpg, .jpeg, .png">
+        </div>
+        <div class="preview">
+          <p>No files currently selected for upload</p>
+        </div>
+        <div>
+          <center><button>Submit</button></center>
+        </div>
+        <div>
+          {% if prediction %}
+            <h2>Image contains {{prediction}}</h2>
+          {% endif %}
+        </div>
+    </form>
+    <script src="{{url_for('static',filename='main.js')}}"></script>
+</body>
+
+</html>
